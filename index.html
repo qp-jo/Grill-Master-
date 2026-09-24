@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الفضاء الرقمي | للأجهزة الخلوية والكمبيوتر</title>
+  <title>القدس | للأجهزة الخلوية والكمبيوتر</title>
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -46,7 +46,7 @@
           <path d="M30 68 L68 32 L50 32 L68 32 L68 50 Z" fill="#ffffff" />
         </svg>
         <div>
-          <h1 class="font-black text-lg text-white leading-tight">الفضاء الرقمي</h1>
+          <h1 class="font-black text-lg text-white leading-tight">القدس</h1>
           <p class="text-xs text-cyan-400">للأجهزة الخلوية والكمبيوتر</p>
         </div>
       </div>
@@ -216,7 +216,7 @@
 
             loadedCount++;
             const cleanImage = (image && image.trim() !== '') ? image.trim() : DEFAULT_IMAGE;
-            const whatsappMsg = encodeURIComponent(`مرحباً الفضاء الرقمي، مهتم بشراء/استفسار عن: ${title.trim()} ${price ? 'بسعر ' + price.trim() + ' دينار' : ''}`);
+            const whatsappMsg = encodeURIComponent(`مرحباً القدس، مهتم بشراء/استفسار عن: ${title.trim()} ${price ? 'بسعر ' + price.trim() + ' دينار' : ''}`);
 
             container.innerHTML += `
               <div class="bg-slate-900/80 cyber-border rounded-2xl p-4 flex flex-col justify-between transition group">
@@ -277,7 +277,7 @@
       const item = document.getElementById('cust-item').value;
       const payment = document.getElementById('cust-payment').value;
 
-      const message = `مرحباً الفضاء الرقمي 🚀%0Aطلب جديد من الموقع:%0A- *الاسم:* ${name}%0A- *الهاتف:* ${phone}%0A- *الطلب:* ${item}%0A- *المنطقة:* ${location}%0A- *طريقة الدفع:* ${payment}`;
+      const message = `مرحباً القدس 🚀%0Aطلب جديد من الموقع:%0A- *الاسم:* ${name}%0A- *الهاتف:* ${phone}%0A- *الطلب:* ${item}%0A- *المنطقة:* ${location}%0A- *طريقة الدفع:* ${payment}`;
       window.open(`https://wa.me/962770088226?text=${message}`, '_blank');
     }
 
